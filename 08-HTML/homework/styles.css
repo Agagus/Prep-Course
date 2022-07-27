@@ -1,20 +1,32 @@
-    
-        h1 {
-            color:indigo;
-        }
-        img {
-            width:400px
-        }
-        #thirdDiv {
-            width : 500px;
-            height : 600px;
-            background: darkmagenta;
-            padding: 50px;
-            border-color: coral;
-            border-style: double;
-            border-width: 12px;
-        }
-        #spanId {
-            font-size: 18px;
-            margin: 50px;
-        }
+h1 {
+    color:rgb(120, 235, 97);
+}
+img {
+    width:400px
+}
+#thirdDiv {
+    display: flex;
+    justify-content: center;
+    background: brown;
+    padding: 50px;
+    border-color: coral;
+    border-style: double;
+    border-width: 12px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/planta-que-crece-suelo_1150-19317.jpg?w=2000) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
